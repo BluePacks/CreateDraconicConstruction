@@ -1,0 +1,13 @@
+filename = 'garnished-1.5.1-hotfix-1+1.18.2.jar'
+name = 'Create: Garnished'
+side = 'both'
+
+[download]
+hash = '1e798891efa2f7f933a3d9d0c83ca66f43d44d4eacf1c9cb6c41c472a737a28b677050c17a001a46e5bceef376906b6eb979d697aca7748d8b8ce51a45958d8a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6e2SlzR4/versions/Z7zY438F/garnished-1.5.1-hotfix-1%2B1.18.2.jar'
+
+[update.modrinth]
+mod-id = '6e2SlzR4'
+version = 'Z7zY438F'

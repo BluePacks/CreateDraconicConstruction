@@ -1,0 +1,13 @@
+filename = 'refinedstorageaddons-0.8.2.jar'
+name = 'Refined Storage Addons'
+side = 'both'
+
+[download]
+hash = 'e97f3f2802b68ee3a43450faafe06a3b8742550abad757e6e0168aed9a9135674b481e166db19a6e59964737fa4dd129a2dc69529741a61c09d7e571e56257c6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Z4Z5ccuT/versions/wutJRjOJ/refinedstorageaddons-0.8.2.jar'
+
+[update.modrinth]
+mod-id = 'Z4Z5ccuT'
+version = 'wutJRjOJ'

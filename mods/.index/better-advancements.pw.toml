@@ -1,0 +1,13 @@
+filename = 'BetterAdvancements-1.18.2-0.1.2.125.jar'
+name = 'Better Advancements'
+side = 'both'
+
+[download]
+hash = '6c7435a0f67c16cdba579d03f58a3bf499631beb0e471dbc63dffc7687209c804b249047842b5ee199b9bd65cdb6a83b11c836b6eaacbc4b6bcc73f4c2421e8f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Q2OqKxDG/versions/4b3NQ33t/BetterAdvancements-1.18.2-0.1.2.125.jar'
+
+[update.modrinth]
+mod-id = 'Q2OqKxDG'
+version = '4b3NQ33t'

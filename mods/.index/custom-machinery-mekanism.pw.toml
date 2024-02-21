@@ -1,0 +1,13 @@
+filename = 'Custom-Machinery-Mekanism-1.2.0.jar'
+name = 'Custom Machinery Mekanism'
+side = 'both'
+
+[download]
+hash = 'd403eb632e77c5e314e47e27a4994017852abbf4b9c6a4911a734183b720de9f7168d771fa883541d9e80a7f4fd0cf99fb09a37af3d167af4aa57b0bf342f280'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VFxg3xmP/versions/JTLWlW3h/Custom-Machinery-Mekanism-1.2.0.jar'
+
+[update.modrinth]
+mod-id = 'VFxg3xmP'
+version = 'JTLWlW3h'

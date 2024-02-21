@@ -1,0 +1,13 @@
+filename = 'MM-1.18.2-0.3.2.jar'
+name = 'Masterful Machinery'
+side = 'both'
+
+[download]
+hash = 'cdb2b9ef3fbd68c42fdf1145a3ce9ffda40362a0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4569810
+project-id = 423476

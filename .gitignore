@@ -1,0 +1,14 @@
+backups
+crash_reports
+logs
+local
+mm_generated
+screenshots
+saves
+options.txt
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
+patchouli_data.json
+hotbar.nbt

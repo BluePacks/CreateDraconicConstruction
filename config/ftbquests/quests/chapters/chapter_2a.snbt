@@ -1,0 +1,388 @@
+{
+	id: "02C194AA74A32BB5"
+	group: "42926CBA1E503967"
+	order_index: 2
+	filename: "chapter_2a"
+	title: "Chapter 2a"
+	icon: "kubejs:storage_matrix"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "yay no more chest monsters"
+			description: ["This chapter does not need to be automated but it may be wise to automate silicon wafers as it is needed later in progression"]
+			dependencies: ["4B779DD240AA9C6F"]
+			hide: true
+			id: "44559E5AF4641468"
+			tasks: [{
+				id: "0ACC4AA08916304A"
+				type: "checkmark"
+				title: "refined storaggeee :DD"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: ["Iron from anywhere, washing gravel, drilling machine, iron farm, etc"]
+			dependencies: ["44559E5AF4641468"]
+			id: "23A34A394A60196A"
+			tasks: [{
+				id: "68E88F6EC822E43D"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			dependencies: [
+				"23A34A394A60196A"
+				"40CE94AE126EBFE1"
+			]
+			id: "020311660FE3BFE2"
+			tasks: [{
+				id: "7CF7967E2F592437"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			dependencies: [
+				"020311660FE3BFE2"
+				"24237BB817D39596"
+			]
+			id: "13178FACC343B7B6"
+			tasks: [{
+				id: "768722146105AF85"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["44559E5AF4641468"]
+			id: "223D5EB4FD8C2403"
+			tasks: [{
+				id: "6A78BE45E108EF3D"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["Quartz from anywhere, milling diorite from igneous extruders, washing soulsand, drilling machine, etc"]
+			dependencies: ["44559E5AF4641468"]
+			id: "40CE94AE126EBFE1"
+			tasks: [{
+				id: "45AD1F9062DCBEE1"
+				type: "item"
+				item: "minecraft:quartz"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			dependencies: [
+				"223D5EB4FD8C2403"
+				"40CE94AE126EBFE1"
+			]
+			id: "0CEACA1F61E6D007"
+			tasks: [{
+				id: "23C4A7EF11A81CF8"
+				type: "item"
+				item: "refinedstorage:silicon"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			dependencies: ["0CEACA1F61E6D007"]
+			id: "318675C61CEC920D"
+			tasks: [{
+				id: "1EB0A1696A8062A7"
+				type: "item"
+				item: "kubejs:silicon_wafer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: ["Superheated mixing will grant you more then regular heated mixing if you have access to superheating yet"]
+			dependencies: [
+				"23A34A394A60196A"
+				"40CE94AE126EBFE1"
+			]
+			id: "24237BB817D39596"
+			tasks: [{
+				id: "5F9723222AD6B166"
+				type: "item"
+				item: "kubejs:molten_quartz_enriched_iron_bucket"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			subtitle: "Gotta admit im kinda proud of this model"
+			dependencies: [
+				"24237BB817D39596"
+				"13178FACC343B7B6"
+				"39E405BBEAFA865B"
+				"07F60391AC69BF01"
+				"4E86186D9AC99F9C"
+			]
+			id: "3FD7BB7270C5E1BF"
+			tasks: [{
+				id: "3194D056E58B05E3"
+				type: "item"
+				item: "kubejs:storage_matrix_part"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			description: ["Gold from anywhere, washing soulsand, drilling machine, piglin farm, etc"]
+			hide_dependency_lines: true
+			dependencies: ["44559E5AF4641468"]
+			id: "7F16C4C06EC02347"
+			tasks: [{
+				id: "34AE1A33A4FF1464"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.0d
+			dependencies: ["559B13B15D1981A0"]
+			id: "07F60391AC69BF01"
+			tasks: [{
+				id: "35B332825E575FAA"
+				type: "item"
+				item: "refinedstorage:processor_binding"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 8.0d
+			dependencies: ["2891CA8F11D1C11A"]
+			id: "559B13B15D1981A0"
+			tasks: [{
+				id: "53B373B279B1BCE1"
+				type: "item"
+				title: "Any #forge:slimeballs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:slimeballs"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 6.5d
+			description: ["Tinkers melt them and then cast into slimeballs"]
+			hide_dependency_lines: true
+			dependencies: ["44559E5AF4641468"]
+			id: "2891CA8F11D1C11A"
+			tasks: [
+				{
+					id: "5E1D64343F196F74"
+					type: "item"
+					title: "Any #cdc:budding_blocks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "cdc:budding_blocks"
+						}
+					}
+				}
+				{
+					id: "54427123447753AF"
+					type: "item"
+					title: "Any #cdc:crystals_from_budding"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "cdc:crystals_from_budding"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.5d
+			dependencies: [
+				"318675C61CEC920D"
+				"07F60391AC69BF01"
+				"7F16C4C06EC02347"
+			]
+			id: "39E405BBEAFA865B"
+			tasks: [{
+				id: "76A40CFC82950E7C"
+				type: "item"
+				item: "refinedstorage:improved_processor"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			hide_dependency_lines: true
+			dependencies: ["44559E5AF4641468"]
+			id: "4E86186D9AC99F9C"
+			tasks: [{
+				id: "241A6DBA3E680C36"
+				type: "item"
+				item: "refinedstorage:wrench"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			subtitle: "yayy"
+			dependencies: ["3FD7BB7270C5E1BF"]
+			id: "5A4DE16C594FD657"
+			tasks: [{
+				id: "6644F4D7A7C32F5C"
+				type: "item"
+				item: "kubejs:storage_matrix"
+			}]
+			rewards: [
+				{
+					id: "1BE4A95A29D7D85F"
+					type: "item"
+					item: "kubejs:storage_matrix_part"
+					count: 16
+				}
+				{
+					id: "424B516C1DC19FA9"
+					type: "xp"
+					xp: 400
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 10.5d
+			dependencies: ["5A4DE16C594FD657"]
+			hide: true
+			id: "27807F29BA67235A"
+			tasks: [{
+				id: "220D3E645849C523"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "302F719B5B63371A"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			dependencies: ["5A4DE16C594FD657"]
+			hide: true
+			id: "4FC36334F7539996"
+			tasks: [{
+				id: "58928AF59CBE87A9"
+				type: "item"
+				item: "refinedstorage:storage_housing"
+			}]
+			rewards: [{
+				id: "4BDD974D5ABECEFC"
+				type: "item"
+				item: "refinedstorage:storage_housing"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 11.5d
+			dependencies: ["5A4DE16C594FD657"]
+			hide: true
+			id: "194E2B30F3E87574"
+			tasks: [{
+				id: "45042A68C67DEE1E"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+			rewards: [{
+				id: "2AD891A4920D2448"
+				type: "item"
+				item: "refinedstorage:advanced_processor"
+				count: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: 10.5d
+			dependencies: ["5A4DE16C594FD657"]
+			hide: true
+			id: "747675DE9F904F28"
+			tasks: [{
+				id: "59B4903ACC9D18B4"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.5d
+			subtitle: "you spent too much time on this, have some nice things"
+			dependencies: ["5A4DE16C594FD657"]
+			hide: true
+			id: "420A7D9EDC6961EE"
+			tasks: [{
+				id: "2C7A3A2D73FEEF31"
+				type: "item"
+				item: {
+					id: "extradisks:infinite_storage_disk"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3D34CDEF77FE6D3B"
+					type: "item"
+					item: "mekanism:alloy_atomic"
+					count: 8
+				}
+				{
+					id: "1B608CC2D90F840D"
+					type: "item"
+					item: "mekanism:ultimate_control_circuit"
+					count: 8
+				}
+				{
+					id: "6D58B2CED3F00ACB"
+					type: "item"
+					item: "kubejs:silicon_wafer"
+					count: 32
+				}
+				{
+					id: "2BD272A1B6268404"
+					type: "item"
+					item: "mekanism:ultimate_tier_installer"
+					count: 4
+				}
+				{
+					id: "5339614FA533699B"
+					type: "xp"
+					xp: 1000
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Mekanikal Assembler",
+    "icon": "mm:mekanikal_assembler_controller",
+    "category": "patchouli:multiblocks_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This entry covers how to build the Mekanikal Assembler, essential for progressing and getting you closer to your final goal! Any items that say Mekanikal Assembler in the tooltip require or reccomend this to craft them. $(l:patchouli:multiblocks/multiblock_index)Click to see multiblock index"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "I  ",
+                        "I  ",
+                        "I  "
+                      ],
+                      [
+                        "ABD",
+                        "E0C",
+                        "GHD"
+                      ]
+                ],
+                "mapping": {
+                    "I": "create:mechanical_arm",
+                    "D": "mekanism:steel_casing",
+                    "A": "mm:mekanikal_assembler_fluid_input_port",
+                    "B": "mm:mekanikal_assembler_item_input_port",
+                    "E": "mm:mekanikal_assembler_energy_input_port",
+                    "0": "create:brass_block",
+                    "G": "mm:mekanikal_assembler_fluid_output_port",
+                    "H": "mm:mekanikal_assembler_item_output_port",
+                    "C": "mm:mekanikal_assembler_controller"
+                }
+            }
+        }
+    ]
+}

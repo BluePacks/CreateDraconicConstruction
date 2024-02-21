@@ -1,0 +1,13 @@
+filename = 'lootjs-forge-1.18.2-2.7.7.jar'
+name = 'LootJS: KubeJS Addon'
+side = 'both'
+
+[download]
+hash = '18071bd9727361d26e7b86bf7cc349d46759341d85319b4c9391563a417a5f7f2e044fe183a4adaea5ea03a4dc6853df32f21ff64840b7d42a6cf37912909610'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fJFETWDN/versions/rFw5aG3j/lootjs-forge-1.18.2-2.7.7.jar'
+
+[update.modrinth]
+mod-id = 'fJFETWDN'
+version = 'rFw5aG3j'

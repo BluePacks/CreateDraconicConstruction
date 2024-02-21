@@ -1,0 +1,13 @@
+filename = 'CustomMachineryCreate-forge-1.18.2-1.0.2.jar'
+name = 'Custom Machinery Create'
+side = 'both'
+
+[download]
+hash = '9ac1662f37242f81ba527972de4eaace6c0abe943256b2cf3dddc859d39d5c9032e15e51769a6a4b423ccdc794ab12bc01a02c9db1b9f3371b981234832cc655'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NHh2cWu8/versions/zB22yGjr/CustomMachineryCreate-forge-1.18.2-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'NHh2cWu8'
+version = 'zB22yGjr'

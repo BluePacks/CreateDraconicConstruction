@@ -1,0 +1,13 @@
+filename = 'BetterF3-3.0.0-Forge-1.18.2.jar'
+name = 'BetterF3'
+side = 'client'
+
+[download]
+hash = '25b51011a2319faa69db54971c439e087ce591e723eb3a85350f63cfd49abd1a48c3fe109e03b6115ee4295b9be75fde3a6ed69385ac61084e433ef26c8325d2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8shC1gFX/versions/QIXtqgTu/BetterF3-3.0.0-Forge-1.18.2.jar'
+
+[update.modrinth]
+mod-id = '8shC1gFX'
+version = 'QIXtqgTu'

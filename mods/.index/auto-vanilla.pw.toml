@@ -1,0 +1,13 @@
+filename = 'autosmithingtable_1.18.2-1.2.4.jar'
+name = 'AutoVanilla'
+side = 'both'
+
+[download]
+hash = '0f97f8da85a1e2683a134e9f6d2e065f17bcd9f7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4366419
+project-id = 665004

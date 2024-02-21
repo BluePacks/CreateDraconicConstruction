@@ -1,0 +1,13 @@
+{
+  "block.mm.distillation_tower_controller": "Distillation Tower",
+  "block.mm.mekanikal_assembler_controller": "Mekanikal Assembler",
+  "block.mm.mekanikal_assembler_energy_input_port": "Universal Energy Input Port",
+  "block.mm.mekanikal_assembler_fluid_input_port": "Universal Fluid Input Port",
+  "block.mm.mekanikal_assembler_fluid_output_port": "Universal Fluid Output Port",
+  "block.mm.mekanikal_assembler_item_input_port": "Universal Item Input Port",
+  "block.mm.mekanikal_assembler_item_output_port": "Universal Item Output Port",
+  "container.masterfulmachinery.mm:distillation_tower_controller_controller.name": "Distillation Tower",
+  "container.masterfulmachinery.mm:mekanikal_assembler_controller_controller.name": "Mekanikal Assembler",
+  "item.mm.blueprint": "Blueprint",
+  "item.mm.structure_wand": "Structure Wand"
+}

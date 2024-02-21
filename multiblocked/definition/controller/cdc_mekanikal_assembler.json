@@ -1,0 +1,297 @@
+{
+  "version": 3,
+  "location": "cdc:mekanikal_assembler",
+  "ui": "mekanikal_assembler.mbdui",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "p1",
+      "x": 60,
+      "y": 83,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "item_in_2",
+        "x": 39,
+        "y": 76,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 2,
+        "slotName": "item_out_4",
+        "x": 132,
+        "y": 97,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "item_in_1",
+        "x": 19,
+        "y": 76,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "item_in_3",
+        "x": 19,
+        "y": 96,
+        "autoIO": false
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "item_in_4",
+        "x": 39,
+        "y": 97,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "item_out_2",
+        "x": 132,
+        "y": 78,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "item_out_1",
+        "x": 111,
+        "y": 78,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "item_out_3",
+        "x": 112,
+        "y": 97,
+        "autoIO": false
+      }
+    ],
+    "fluid": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "fluid_in_1",
+        "x": 6,
+        "y": 99,
+        "autoIO": false,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "fluid_in_2",
+        "x": 7,
+        "y": 121,
+        "autoIO": false,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "fluid_out_1",
+        "x": 118,
+        "y": 97,
+        "autoIO": false,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "fluid_out_2",
+        "x": 118,
+        "y": 119,
+        "autoIO": false,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ],
+    "forge_energy": {
+      "cIO": 0,
+      "gIO": 0,
+      "mbdIO": 0,
+      "slotName": "fe1",
+      "x": 8,
+      "y": 151,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT",
+      "capacity": 10000,
+      "maxReceive": 5000,
+      "maxExtract": 5000
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "create:brass_casing",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "renderer": {
+        "modelLocation": "multiblocked:smart_rotational_matrix",
+        "type": "imodel",
+        "postRenderer": false
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 8,
+      "parent": "idle",
+      "sound": {
+        "sound": "mekanism:tile.machine.energized_smelter",
+        "loop": true,
+        "delay": 0,
+        "volume": 1.0,
+        "pitch": 0.1
+      }
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "assembler",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "A@A",
+        "   "
+      ],
+      [
+        "BBB",
+        "   "
+      ],
+      [
+        "AAA",
+        "CCC"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "mekanism:steel_casing"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cdc:mekanikal_assembler",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "create:brass_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "create:mechanical_arm"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ]
+    }
+  }
+}

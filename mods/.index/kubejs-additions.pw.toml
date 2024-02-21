@@ -1,0 +1,13 @@
+filename = 'kubejsadditions-2.2.4.jar'
+name = 'KubeJS Additions'
+side = 'both'
+
+[download]
+hash = 'b987a6c636805afc73b618f2b97c4eb8a770c7da73507d28b32a93bee85c1e85d236cde559d92995b29546ba7ae362556a364b95450d8c8b4d09399ec006ae9d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BZemjxZb/versions/bf2ueeHR/kubejsadditions-2.2.4.jar'
+
+[update.modrinth]
+mod-id = 'BZemjxZb'
+version = 'bf2ueeHR'

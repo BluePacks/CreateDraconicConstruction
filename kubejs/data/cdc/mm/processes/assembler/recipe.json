@@ -1,0 +1,42 @@
+{
+    "duration": 150,
+    "structureId": "cdc:mekanikal_assembler_structure",
+    "name": {
+      "text": "Rotational Matrix"
+    },
+    "inputs": [
+      {
+        "type": "mm:simple",
+        "ingredient": {
+          "type": "mm:fluid",
+          "fluid": "kubejs:machine_lubricant",
+          "amount": 50
+        }
+      },
+      {
+        "type": "mm:simple",
+        "ingredient": {
+          "type": "mm:energy",
+          "amount": 500
+        }
+      },
+      {
+        "type": "mm:simple",
+        "ingredient": {
+          "type": "mm:item",
+          "item": "kubejs:rotational_matrix_part",
+          "count": 4
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "type": "mm:simple",
+        "ingredient": {
+          "type": "mm:item",
+          "item": "kubejs:rotational_matrix",
+          "count": 1
+        }
+      }
+    ]
+  }

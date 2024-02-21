@@ -1,0 +1,17 @@
+{
+    "name": "Multiblock Index",
+    "icon": "minecraft:player_head",
+    "category": "patchouli:multiblocks_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "A list of all Multiblocks and things they produce"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "mm:blueprint",
+            "title": "List of Multiblocks",
+            "text": "$(l:patchouli:multiblocks/mekanikal_assembler)Mekanikal Assembler $(br)$(l:patchouli:multiblocks/distillation_tower)Distillation Tower"
+        }
+    ]
+}

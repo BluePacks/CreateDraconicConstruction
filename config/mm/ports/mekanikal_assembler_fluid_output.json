@@ -1,0 +1,11 @@
+{
+    "id": "mekanikal_assembler_fluid_output",
+       "name": {
+       "text": "Universal Fluid"
+       },
+       "port": "mm:fluid",
+       "input": false,
+       "config": {
+       "capacity": 10000
+       }
+    }

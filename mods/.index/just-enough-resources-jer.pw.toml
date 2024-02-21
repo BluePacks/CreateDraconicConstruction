@@ -1,0 +1,13 @@
+filename = 'JustEnoughResources-1.18.2-0.14.2.206.jar'
+name = 'Just Enough Resources'
+side = 'both'
+
+[download]
+hash = '0853d8a3b78b9f6f036aa81d8859f70cf29c32a4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4445746
+project-id = 240630

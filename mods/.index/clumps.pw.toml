@@ -1,0 +1,13 @@
+filename = 'Clumps-forge-1.18.2-8.0.0+17.jar'
+name = 'Clumps'
+side = 'both'
+
+[download]
+hash = '93fb282bb852563e3a1ed7188e6dd9039fc3ac461ed6ce74b92b05f3eebb5071ff3cc37c4d942786f3d9ee60f3a78b0036fe3fe410028103d53810eb4f09a85a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Wnxd13zP/versions/t18CfscF/Clumps-forge-1.18.2-8.0.0%2B17.jar'
+
+[update.modrinth]
+mod-id = 'Wnxd13zP'
+version = 't18CfscF'

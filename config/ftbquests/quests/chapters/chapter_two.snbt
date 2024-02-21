@@ -1,0 +1,437 @@
+{
+	id: "2A604CFE02814B46"
+	group: "42926CBA1E503967"
+	order_index: 1
+	filename: "chapter_two"
+	title: "Chapter 2"
+	icon: "kubejs:smart_rotational_matrix"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "smort"
+			description: ["Your goal in this chapter is to get some more advanced machinery to prepare yourself for getting into Mekanism and further"]
+			dependencies: ["0086972537569FBB"]
+			hide: true
+			id: "39E82034610A5C07"
+			tasks: [{
+				id: "792286FAA2449CB0"
+				type: "checkmark"
+				title: "Chapter Goals"
+			}]
+		}
+		{
+			icon: "biomesoplenty:rose_quartz_shard"
+			x: -3.0d
+			y: 1.5d
+			description: [
+				"For rose quartz you CAN use the normal expensive Create recipe or you can use crystal growth to automate the process which is cheaper and easier. I highly recommend setting this up for long term."
+				"You will need to find a naturally generating Tinkers or vanilla budding crystal block and make a Crystal Collector so you are able to harvest the budding blocks. Once that is done you can cast onto it with molten rose quartz from melting down rose quartz from the Nether. Rose quartz is found in the Crystaline Chasm biome, consider using a Natures Compass to find it"
+			]
+			dependencies: ["39E82034610A5C07"]
+			id: "694B968306718109"
+			tasks: [
+				{
+					id: "7A1D18717D7843DA"
+					type: "item"
+					item: "biomesoplenty:rose_quartz_shard"
+				}
+				{
+					id: "37C7C827D95E98F4"
+					type: "item"
+					item: "kubejs:budding_rose_quartz"
+				}
+				{
+					id: "076C87962A616F30"
+					type: "item"
+					item: {
+						id: "kubejs:crystal_collector"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "51CDDD35BAF2D172"
+					type: "checkmark"
+					title: "Understood"
+				}
+				{
+					id: "3309B5AA3D751AEF"
+					type: "biome"
+					icon: "biomesoplenty:rose_quartz_shard"
+					biome: "biomesoplenty:crystalline_chasm"
+				}
+			]
+		}
+		{
+			icon: "create:rose_quartz"
+			x: -1.5d
+			y: 2.5d
+			description: ["Worse alternative to the other rose quartz quest. Use redstone and nether quartz to create rose quartz"]
+			dependencies: ["39E82034610A5C07"]
+			id: "32D7CB523A9EF95E"
+			tasks: [
+				{
+					id: "23091EDCD1647D16"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+				{
+					id: "251AA2F6FFE8C9A2"
+					type: "checkmark"
+					title: "Understood"
+				}
+			]
+		}
+		{
+			icon: "create:rose_quartz"
+			x: -3.5d
+			y: 3.5d
+			description: ["Bulk wash"]
+			dependencies: ["694B968306718109"]
+			id: "224D46345A03D730"
+			tasks: [
+				{
+					id: "3612541032B104B6"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+				{
+					id: "592669436D524063"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "create:polished_rose_quartz"
+			x: -3.0d
+			y: 5.0d
+			description: ["Sandpaper polish or later Mekanism Enriching"]
+			dependencies: [
+				"32D7CB523A9EF95E"
+				"224D46345A03D730"
+			]
+			id: "7FEE5CCB16C089B4"
+			tasks: [
+				{
+					id: "5FA8B659A7A76C2E"
+					type: "item"
+					item: "create:polished_rose_quartz"
+				}
+				{
+					id: "5E93784534AFBEFD"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "create:electron_tube"
+			x: -2.0d
+			y: 6.0d
+			description: ["Deploy with an iron nugget from gravel washing or other iron means"]
+			dependencies: ["7FEE5CCB16C089B4"]
+			id: "0C191E382A1FA5A6"
+			tasks: [
+				{
+					id: "74E1F5FE9885FD3F"
+					type: "item"
+					item: "create:electron_tube"
+				}
+				{
+					id: "54AFE6E26889B991"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "create:large_cogwheel"
+			x: 0.0d
+			y: 3.0d
+			description: ["Same as Chapter one but with one more plank deployed"]
+			dependencies: ["39E82034610A5C07"]
+			id: "1528B942CA92F2DF"
+			tasks: [
+				{
+					id: "282B04CC3F0B7632"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+				{
+					id: "2C647CD6E224E759"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["Not currently automatable but I recommend putting your first few smart matrixes into getting a Drilling Machine so you can automate this asap"]
+			dependencies: ["39E82034610A5C07"]
+			id: "48A43CAA66EE15CB"
+			tasks: [
+				{
+					id: "3859E6481BD403B4"
+					type: "item"
+					item: "minecraft:copper_ingot"
+				}
+				{
+					id: "412212F254AFFA77"
+					type: "item"
+					item: "create:zinc_ingot"
+				}
+			]
+		}
+		{
+			icon: "create:brass_ingot"
+			x: 3.5d
+			y: 4.5d
+			description: ["If you use Create heated mixing you will need to melt the ingots into molten brass"]
+			dependencies: ["48A43CAA66EE15CB"]
+			id: "58FFFEBA0B77DF03"
+			tasks: [
+				{
+					id: "554D93CD1546FC55"
+					type: "item"
+					item: "create:brass_ingot"
+				}
+				{
+					id: "521F4C0D9C762A8D"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "kubejs:smart_rotational_matrix_part"
+			x: 0.0d
+			y: 7.0d
+			description: ["Bring everything together..."]
+			dependencies: [
+				"1528B942CA92F2DF"
+				"0C191E382A1FA5A6"
+				"61282E0233798119"
+			]
+			id: "42B2E9669A1A9A6A"
+			tasks: [
+				{
+					id: "16709AFDE5382F9B"
+					type: "item"
+					item: "kubejs:smart_rotational_matrix_part"
+				}
+				{
+					id: "665A23013B10C964"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "tconstruct:molten_brass_bucket"
+			x: 2.0d
+			y: 6.0d
+			description: ["Alloy copper and zinc or melt brass ingots"]
+			dependencies: [
+				"48A43CAA66EE15CB"
+				"58FFFEBA0B77DF03"
+			]
+			id: "61282E0233798119"
+			tasks: [
+				{
+					id: "645363A8F72E8B07"
+					type: "item"
+					item: "tconstruct:molten_brass_bucket"
+				}
+				{
+					id: "45F76EA3FDE0666F"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			description: ["Hey well done, now look at all the things you can create!"]
+			dependencies: ["42B2E9669A1A9A6A"]
+			id: "5415948761ED54EF"
+			tasks: [{
+				id: "49D8A6F9DAE71729"
+				type: "item"
+				item: "kubejs:smart_rotational_matrix"
+			}]
+			rewards: [
+				{
+					id: "4A1DF5A117F9C1DF"
+					type: "item"
+					item: "kubejs:smart_rotational_matrix_part"
+					count: 16
+				}
+				{
+					id: "79CAF508EA439C81"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 8.5d
+			description: ["Its expensive and slow but in the long term will save you SOO much time"]
+			dependencies: ["5415948761ED54EF"]
+			id: "71F8B6E634AA3FBE"
+			tasks: [{
+				id: "11C671A54CF87122"
+				type: "item"
+				item: "createoreexcavation:drilling_machine"
+			}]
+			rewards: [{
+				id: "239D1D677BD1CB6B"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: -2.5d
+			y: 8.5d
+			description: ["Big help with finding precious oils deep underground and gets you close to your 10,000 block lava pit for infinite lava!"]
+			dependencies: ["5415948761ED54EF"]
+			id: "35D8CDFAB5CE79FB"
+			tasks: [{
+				id: "2DC223B0B0BFB184"
+				type: "item"
+				item: "createoreexcavation:extractor"
+			}]
+			rewards: [{
+				id: "2D1E14C91817BA68"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Storage upgrade time?"
+			icon: "kubejs:storage_matrix"
+			x: 0.0d
+			y: 10.5d
+			description: [
+				"Time for a storage upgrade?"
+				"Check Chapter 2a to see how to make a Refined Storage system!"
+			]
+			dependencies: ["5415948761ED54EF"]
+			id: "4B779DD240AA9C6F"
+			tasks: [{
+				id: "6F89C900985595B9"
+				type: "checkmark"
+				title: "Lets goo"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			description: ["What? Your crystals are too slow? No problemo"]
+			dependencies: ["694B968306718109"]
+			hide: true
+			optional: true
+			id: "345C74B78FAC2E22"
+			tasks: [{
+				id: "7FB55C0FDA2896AC"
+				type: "checkmark"
+				title: "Faster crystal growth? Sign me up!"
+			}]
+		}
+		{
+			title: "Little field trip"
+			x: -6.0d
+			y: 0.5d
+			description: ["Find yourself a Mystic Grove biome and grab some of the local flora"]
+			dependencies: ["345C74B78FAC2E22"]
+			optional: true
+			id: "7FB639006126C85F"
+			tasks: [
+				{
+					id: "24A23570B8C238B1"
+					type: "biome"
+					icon: "biomesoplenty:magic_leaves"
+					biome: "biomesoplenty:mystic_grove"
+				}
+				{
+					id: "6B172194BB59095D"
+					type: "item"
+					item: "biomesoplenty:magic_sapling"
+				}
+				{
+					id: "4DD69CDFD7B2E959"
+					type: "item"
+					item: "biomesoplenty:blue_hydrangea"
+				}
+			]
+		}
+		{
+			title: "Suck the sap"
+			x: -7.5d
+			y: 2.0d
+			description: ["Use arboreal extractors to get some mystical sap"]
+			dependencies: ["7FB639006126C85F"]
+			optional: true
+			id: "6123AB894753B4EE"
+			tasks: [
+				{
+					id: "25F13D6E5402BED3"
+					type: "item"
+					item: "thermal:device_tree_extractor"
+				}
+				{
+					id: "11C8936FA217017A"
+					type: "item"
+					item: "kubejs:mystical_sap_bucket"
+				}
+			]
+		}
+		{
+			title: "Magical steroids"
+			icon: "kubejs:crystal_fertilizer_bucket"
+			x: -6.5d
+			y: 3.5d
+			description: [
+				"Press the sap and some flowers together. Now spout this onto your budding blocks in world as shown in the screenshot below and the growth speed should increase"
+				"{image:kubejs:textures/quests/spout.png width:155 height:100 align:1}"
+			]
+			dependencies: ["6123AB894753B4EE"]
+			optional: true
+			id: "35CE7097F8ECEB80"
+			tasks: [
+				{
+					id: "46DF39AA659D4BFC"
+					type: "item"
+					item: "biomesoplenty:blue_hydrangea"
+				}
+				{
+					id: "6F951B95EC2AE783"
+					type: "item"
+					item: "kubejs:crystal_fertilizer_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "74C93714884A4828"
+					type: "item"
+					item: "kubejs:crystal_fertilizer_bucket"
+				}
+				{
+					id: "6CC4DA63E6EB11EE"
+					type: "item"
+					item: "biomesoplenty:magic_sapling"
+					count: 4
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

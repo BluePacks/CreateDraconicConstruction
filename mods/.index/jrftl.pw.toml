@@ -1,0 +1,13 @@
+filename = 'JRFTL [1.18.1]-1.4.1.jar'
+name = 'Just Another Rotten Flesh to Leather Mod'
+side = 'both'
+
+[download]
+hash = 'a82e66d1567818c2c92c34fb6ef4bdb32dd7ca976c207a08821c2db8704acbb2deaa00708958b80eb6ab47f1963b0c6726102d93922321ccd1deeeb971ec406f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8nIicBYu/versions/oSNjs0kg/JRFTL-%5B1.18.1%5D-1.3.jar'
+
+[update.modrinth]
+mod-id = '8nIicBYu'
+version = 'oSNjs0kg'

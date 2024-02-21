@@ -1,0 +1,52 @@
+{
+    "name": "Distillation Tower",
+    "icon": "mm:distillation_tower_controller",
+    "category": "patchouli:multiblocks_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This entry covers how to build the Distillation Tower, used to refined fluids into other fluids. Any items that say Distillation Tower in the tooltip require or recommend this to craft them. $(l:patchouli:multiblocks/multiblock_index)Click to see multiblock index"
+        },
+        {
+            "type": "patchouli:multiblock",
+            "multiblock": {
+                "pattern": [
+                    [
+                        " BBB",
+                        " BBB",
+                        " BBB"
+                     ],
+                     [
+                        " BBB",
+                        " BBB",
+                        " BBB"
+                     ],
+                     [
+                        "FBBB",
+                        "FBBB",
+                        "FBBB"
+                     ],
+                     [
+                        "FBBB",
+                        "CBBB",
+                        "FBBB"
+                     ],
+                     [
+                        "ABBB",
+                        "DB0B",
+                        "EBBB"
+                     ]
+                ],
+                "mapping": {
+                    "B": "create:fluid_tank",
+                    "0": "create:fluid_tank",
+                    "F": "create:copper_casing",
+                    "C": "mm:distillation_tower_controller",
+                    "D": "mm:mekanikal_assembler_energy_input_port",
+                    "A": "mm:mekanikal_assembler_fluid_input_port",
+                    "E": "mm:mekanikal_assembler_fluid_output_port"
+                }
+            }
+        }
+    ]
+}

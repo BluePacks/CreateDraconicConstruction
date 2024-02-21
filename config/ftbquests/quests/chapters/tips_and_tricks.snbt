@@ -1,0 +1,137 @@
+{
+	id: "4F166198FDF7D98D"
+	group: "3BF57A68E896BA95"
+	order_index: 1
+	filename: "tips_and_tricks"
+	title: "Tips and Tricks"
+	icon: "minecraft:compass"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"*sigh* okay dont lose it again"
+				"(repeatable)"
+			]
+			dependencies: ["4A837C9B00F03557"]
+			optional: true
+			can_repeat: true
+			id: "171164657DDCDA99"
+			tasks: [{
+				id: "672F3AEA9A0D00A4"
+				type: "checkmark"
+				title: "Help i lost my book :c"
+			}]
+			rewards: [{
+				id: "26F88DAE5B5362C8"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:book_of_dragons"
+					}
+				}
+			}]
+		}
+		{
+			title: "About budding crystals"
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"All the budding crystal blocks in this pack can be growth accelerated by spouting them with Crystal Fertilizer in world as shown below."
+				"{image:kubejs:textures/quests/spout.png width:155 height:100 align:1}"
+				"More about this in Chapter 2"
+			]
+			dependencies: ["2DA13A4E36BB66D7"]
+			id: "71F41EDCC4E87DD8"
+			tasks: [
+				{
+					id: "694C1E5B6C051560"
+					type: "item"
+					title: "Any #cdc:budding_blocks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "cdc:budding_blocks"
+						}
+					}
+				}
+				{
+					id: "5F9933A29FE74499"
+					type: "checkmark"
+					title: "Understood"
+				}
+			]
+			rewards: [{
+				id: "241B9218B6D7A80F"
+				type: "xp"
+				xp: 75
+			}]
+		}
+		{
+			title: "Collecting budding blocks"
+			icon: {
+				id: "kubejs:crystal_collector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: 0.0d
+			description: ["You can collect all types of budding blocks for easier farming using the Crystal Collector tool"]
+			id: "2DA13A4E36BB66D7"
+			tasks: [
+				{
+					id: "73930B60DC7E9B24"
+					type: "item"
+					item: {
+						id: "kubejs:crystal_collector"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4FFF1AE05E82D6BA"
+					type: "checkmark"
+					title: "Understood"
+				}
+			]
+			rewards: [{
+				id: "31D90A31F3B11240"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "patchouli:book_of_dragons"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			subtitle: "reading aww :/"
+			description: [
+				"There are 2 main books you will need to refer back to often. This quest book (avalible in the top left of your inventory) and the Book Of Dragons, a guide to all the multiblocks and even some lore!"
+				"{image:patchouli:textures/items/book_brown.png width:50 height:50 align:1}"
+				"{image:ftbquests:textures/item/book.png width:50 height:50 align:1}"
+			]
+			id: "4A837C9B00F03557"
+			tasks: [{
+				id: "1070DE93D255F8C6"
+				type: "checkmark"
+				title: "READ THE BOOKS"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

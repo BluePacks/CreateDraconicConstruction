@@ -1,0 +1,420 @@
+{
+	id: "7021966254058DAC"
+	group: "42926CBA1E503967"
+	order_index: 0
+	filename: "chapter_one"
+	title: "Chapter 1"
+	icon: "kubejs:rotational_matrix"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	progression_mode: "linear"
+	hide_quest_details_until_startable: true
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["You goals here are to fully automate the Rotational Matrix, partially automate the Fluid Matrix and create the Crude Storage Matrix so you can have some nice early storage"]
+			dependencies: ["2DB877867B25DB7F"]
+			hide: true
+			id: "10C6DE7E82F9EE90"
+			tasks: [{
+				id: "6318E66EDB34DB71"
+				type: "checkmark"
+				title: "Chapter Goals"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Any tree farm"
+			dependencies: ["10C6DE7E82F9EE90"]
+			id: "6EA57EFA3C02FA4B"
+			tasks: [
+				{
+					id: "09F409ED3B0644F0"
+					type: "item"
+					title: "Any #minecraft:logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+				}
+				{
+					id: "172236B67F528024"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:andesite"
+			x: -0.5d
+			y: 3.0d
+			description: ["Currently not possible to automate but see optional quest to see how to in the future"]
+			dependencies: ["10C6DE7E82F9EE90"]
+			id: "3C099591CFB2EE38"
+			tasks: [
+				{
+					id: "6B1F405C47896EDF"
+					type: "item"
+					item: "minecraft:andesite"
+				}
+				{
+					id: "2234965D6F0ABC96"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:cobblestone"
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["10C6DE7E82F9EE90"]
+			id: "178E50E4BCD7ED88"
+			tasks: [
+				{
+					id: "697D06313D76C5E1"
+					type: "item"
+					item: "minecraft:cobblestone"
+				}
+				{
+					id: "10012E1FA65F81E5"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:gravel"
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["178E50E4BCD7ED88"]
+			id: "00AF024706930E61"
+			tasks: [
+				{
+					id: "3360DA2365464A33"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+				{
+					id: "520F1C4AAC8EC9AF"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["6EA57EFA3C02FA4B"]
+			id: "1F51E833A70974DD"
+			tasks: [
+				{
+					id: "455DFC9CA92D7636"
+					type: "item"
+					title: "Any #minecraft:planks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
+				}
+				{
+					id: "04C67B28E0B05CDF"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["6EA57EFA3C02FA4B"]
+			id: "3DE349753CB6F88A"
+			tasks: [
+				{
+					id: "572ADD936C381B64"
+					type: "item"
+					title: "Any #forge:stripped_logs"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:stripped_logs"
+						}
+					}
+				}
+				{
+					id: "2B23C5A848F35F83"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "create:andesite_casing"
+			x: 1.0d
+			y: 5.0d
+			dependencies: [
+				"3DE349753CB6F88A"
+				"224232A6905835DA"
+			]
+			id: "3016355AD791EBAE"
+			tasks: [
+				{
+					id: "7EEE21D51CD04A78"
+					type: "item"
+					item: "create:andesite_casing"
+				}
+				{
+					id: "6EA7F47267E17F39"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "create:cogwheel"
+			x: 3.0d
+			y: 7.0d
+			dependencies: [
+				"1F51E833A70974DD"
+				"368FCF2CAE85EFC0"
+			]
+			id: "2B1AD68AE33CB499"
+			tasks: [
+				{
+					id: "526C58F7A5BDB062"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "261BF53DE11592AE"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "create:andesite_alloy"
+			x: -1.0d
+			y: 5.5d
+			dependencies: [
+				"3C099591CFB2EE38"
+				"5B39D95D3A4D72A2"
+			]
+			id: "224232A6905835DA"
+			tasks: [
+				{
+					id: "34E4BDB47376FE49"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+				{
+					id: "2110128BD8F19085"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			icon: "minecraft:iron_nugget"
+			x: -3.5d
+			y: 6.0d
+			dependencies: ["00AF024706930E61"]
+			id: "5B39D95D3A4D72A2"
+			tasks: [
+				{
+					id: "739CAA993A4D5270"
+					type: "item"
+					item: "minecraft:iron_nugget"
+				}
+				{
+					id: "63A692DF0DD13D4C"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: [
+				"When you have access to more metals after more mining you'll be able to automate andesite with the Igneous Extruder"
+				"Also check the other rocks you can create with this powerful machine"
+			]
+			dependencies: ["3C099591CFB2EE38"]
+			optional: true
+			id: "1D8D76C2DC2E6D89"
+			tasks: [{
+				id: "1DA98A8A563C0E92"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+		}
+		{
+			icon: "kubejs:rotational_matrix_part"
+			x: 0.0d
+			y: 8.5d
+			dependencies: [
+				"3016355AD791EBAE"
+				"2B1AD68AE33CB499"
+				"224232A6905835DA"
+				"5B39D95D3A4D72A2"
+			]
+			id: "4853C7DFF97EEF08"
+			tasks: [
+				{
+					id: "563EB4DFE1E707E1"
+					type: "item"
+					item: "kubejs:rotational_matrix_part"
+				}
+				{
+					id: "783D529C1823944C"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			description: ["Well done, great work. Now onto the next endeavour"]
+			dependencies: ["4853C7DFF97EEF08"]
+			id: "0086972537569FBB"
+			tasks: [{
+				id: "1FC58A0DE9C31753"
+				type: "item"
+				item: "kubejs:rotational_matrix"
+			}]
+			rewards: [
+				{
+					id: "7DC5ECEA5EF97010"
+					type: "item"
+					item: "kubejs:rotational_matrix_part"
+					count: 16
+				}
+				{
+					id: "69A053D8098201A9"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 10.5d
+			dependencies: ["0086972537569FBB"]
+			hide: true
+			optional: true
+			id: "53C41CECD2AE224A"
+			tasks: [{
+				id: "33C1366C55B416C9"
+				type: "item"
+				title: "Any #forge:chests/wooden"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.5d
+			dependencies: ["0086972537569FBB"]
+			hide: true
+			optional: true
+			id: "13FF2749BB63232A"
+			tasks: [{
+				id: "1D9B9D1BDBB8E022"
+				type: "item"
+				item: "thermal:cured_rubber"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 11.5d
+			dependencies: ["0086972537569FBB"]
+			hide: true
+			optional: true
+			id: "7C42065D27DC9A16"
+			tasks: [{
+				id: "6396B9558DC5BA9D"
+				type: "item"
+				item: "create:copper_sheet"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 11.5d
+			dependencies: ["0086972537569FBB"]
+			hide: true
+			optional: true
+			id: "1432DF64ADEFA930"
+			tasks: [{
+				id: "0BDECF6C5CEF9870"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.5d
+			dependencies: [
+				"1432DF64ADEFA930"
+				"53C41CECD2AE224A"
+			]
+			optional: true
+			id: "5A7BA4FF4FF365D9"
+			tasks: [{
+				id: "439453238AB8356C"
+				type: "item"
+				item: "kubejs:crude_storage_matrix"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.5d
+			dependencies: [
+				"7C42065D27DC9A16"
+				"13FF2749BB63232A"
+			]
+			optional: true
+			id: "499F3FB5407986A6"
+			tasks: [{
+				id: "5613B9713601481B"
+				type: "item"
+				item: "kubejs:fluid_matrix"
+			}]
+		}
+		{
+			icon: "create:shaft"
+			x: 1.5d
+			y: 6.5d
+			dependencies: ["224232A6905835DA"]
+			id: "368FCF2CAE85EFC0"
+			tasks: [
+				{
+					id: "48163059F39F7F29"
+					type: "item"
+					item: "create:shaft"
+				}
+				{
+					id: "6AB79C91ADE1992D"
+					type: "checkmark"
+					title: "Automated"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

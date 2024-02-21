@@ -1,0 +1,13 @@
+filename = 'AutoRegLib-1.7-53.jar'
+name = 'AutoRegLib'
+side = 'both'
+
+[download]
+hash = '1bef083d5b80a23e1bea818e659930659dcc696b3b04b4d5fcec387832fd55390a38df7563b85210178b5077b2d3f8f01da128127a81b7840abc10897ab9a778'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NvZ9ZhwE/versions/1.7-53/AutoRegLib-1.7-53.jar'
+
+[update.modrinth]
+mod-id = 'NvZ9ZhwE'
+version = 'mpcqmrhv'

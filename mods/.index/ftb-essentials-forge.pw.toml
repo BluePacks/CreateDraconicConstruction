@@ -1,0 +1,13 @@
+filename = 'ftb-essentials-1802.2.2-build.83.jar'
+name = 'FTB Essentials (Forge & Fabric)'
+side = 'both'
+
+[download]
+hash = 'a37d94278e022482227efdd4d7508720c31a77b0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4560421
+project-id = 410811

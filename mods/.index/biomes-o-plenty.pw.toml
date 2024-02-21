@@ -1,0 +1,13 @@
+filename = 'BiomesOPlenty-1.18.2-16.0.0.134.jar'
+name = "Biomes O' Plenty"
+side = 'both'
+
+[download]
+hash = 'bce0281580f9fdf753f3b41ca6ee30564b314a81a8310e379f2a83690f4540f169d434bde07e868e02b1b45b33001fc4421ccf37e69b5ba5730e98eff8804935'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HXF82T3G/versions/rPn6qGL9/BiomesOPlenty-1.18.2-16.0.0.134.jar'
+
+[update.modrinth]
+mod-id = 'HXF82T3G'
+version = 'rPn6qGL9'
