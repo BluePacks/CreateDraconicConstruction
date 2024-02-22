@@ -1,7 +1,0 @@
-{
-    "name": "Book of Dragons",
-    "landing_text": "Welcome to Create: Draconic Construction $(br2)This book will guide you through your mission to restore the world",
-    "version": "Binding 1",
-    "creative_tab": "minecraft:tools_and_utilities",
-    "use_resource_pack": true
-}
