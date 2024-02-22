@@ -2,33 +2,33 @@
     "duration": 100,
     "structureId": "cdc:distillation_tower_structure",
     "name": {
-      "text": "Machine Lubricant"
+        "text": "Machine Lubricant"
     },
     "inputs": [
-      {
-        "type": "mm:simple",
-        "ingredient": {
-          "type": "mm:fluid",
-          "fluid": "thermal:crude_oil",
-          "amount": 200
+        {
+            "type": "mm:simple",
+            "ingredient": {
+                "type": "mm:fluid",
+                "fluid": "thermal:crude_oil",
+                "amount": 200
+            }
+        },
+        {
+            "type": "mm:simple",
+            "ingredient": {
+                "type": "mm:energy",
+                "amount": 250
+            }
         }
-      },
-      {
-        "type": "mm:simple",
-        "ingredient": {
-          "type": "mm:energy",
-          "amount": 250
-        }
-      }
     ],
     "outputs": [
-      {
-        "type": "mm:simple",
-        "ingredient": {
-          "type": "mm:fluid",
-          "fluid": "kubejs:machine_lubricant",
-          "amount": 100
+        {
+            "type": "mm:simple",
+            "ingredient": {
+                "type": "mm:fluid",
+                "fluid": "kubejs:machine_lubricant",
+                "amount": 100
+            }
         }
-      }
     ]
-  }
+}

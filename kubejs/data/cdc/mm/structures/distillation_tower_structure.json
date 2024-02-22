@@ -1,58 +1,38 @@
 {
-    "controllerId":"mm:distillation_tower",
-    "name":{
-       "text": "Distillation Tower"
+    "controllerId": "mm:distillation_tower",
+    "name": {
+        "text": "Distillation Tower"
     },
-    "layout":[
-       [
-          " BBB",
-          " BBB",
-          " BBB"
-       ],
-       [
-          " BBB",
-          " BBB",
-          " BBB"
-       ],
-       [
-          "FBBB",
-          "FBBB",
-          "FBBB"
-       ],
-       [
-          "FBBB",
-          "CBBB",
-          "FBBB"
-       ],
-       [
-          "ABBB",
-          "DBBB",
-          "EBBB"
-       ]
+    "layout": [
+        [" BBB", " BBB", " BBB"],
+        [" BBB", " BBB", " BBB"],
+        ["FBBB", "FBBB", "FBBB"],
+        ["FBBB", "CBBB", "FBBB"],
+        ["ABBB", "DBBB", "EBBB"]
     ],
-    "key":{
-       "A":{
-          "type":"mm:port",
-          "port":"mm:fluid",
-          "input":true
-       },
-       "B":{
-          "type":"mm:block",
-          "block":"create:fluid_tank"
-       },
-       "D":{
-          "type":"mm:port",
-          "port":"mm:energy",
-          "input":true
-       },
-       "E":{
-          "type":"mm:port",
-          "port":"mm:fluid",
-          "input":false
-       },
-       "F":{
-          "type":"mm:block",
-          "block":"create:copper_casing"
-       }
+    "key": {
+        "A": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": true
+        },
+        "B": {
+            "type": "mm:block",
+            "block": "create:fluid_tank"
+        },
+        "D": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "E": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": false
+        },
+        "F": {
+            "type": "mm:block",
+            "block": "create:copper_casing"
+        }
     }
- }
+}

@@ -1,12 +1,10 @@
 {
     "criteria": {
-      "tick": {
-        "trigger": "minecraft:tick"
-      }
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
     },
     "rewards": {
-      "loot": [
-        "book_of_dragons:grant_book_on_first_join"
-      ]
+        "loot": ["book_of_dragons:grant_book_on_first_join"]
     }
-  }
+}

@@ -4,54 +4,46 @@
         "text": "Mekanikal Assembler"
     },
     "layout": [
-      [
-        "I  ",
-        "I  ",
-        "I  "
-      ],
-      [
-        "ABD",
-        "EFC",
-        "GHD"
-      ]
+        ["I  ", "I  ", "I  "],
+        ["ABD", "EFC", "GHD"]
     ],
     "key": {
-      "A": {
-        "type": "mm:port",
-        "port": "mm:fluid",
-        "input": false
-      },
-      "B": {
-        "type": "mm:port",
-        "port": "mm:item",
-        "input": false
-      },
-      "D": {
-        "type": "mm:block",
-        "block": "mekanism:steel_casing"
-      },
-      "E": {
-        "type": "mm:port",
-        "port": "mm:energy",
-        "input": true
-      },
-      "F": {
-        "type": "mm:block",
-        "block": "create:brass_block"
-      },
-      "G": {
-        "type": "mm:port",
-        "port": "mm:fluid",
-        "input": true
-      },
-      "H": {
-        "type": "mm:port",
-        "port": "mm:item",
-        "input": true
-      },
-      "I": {
-        "type": "mm:block",
-        "block": "create:mechanical_arm"
-      }
+        "A": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": false
+        },
+        "B": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": false
+        },
+        "D": {
+            "type": "mm:block",
+            "block": "mekanism:steel_casing"
+        },
+        "E": {
+            "type": "mm:port",
+            "port": "mm:energy",
+            "input": true
+        },
+        "F": {
+            "type": "mm:block",
+            "block": "create:brass_block"
+        },
+        "G": {
+            "type": "mm:port",
+            "port": "mm:fluid",
+            "input": true
+        },
+        "H": {
+            "type": "mm:port",
+            "port": "mm:item",
+            "input": true
+        },
+        "I": {
+            "type": "mm:block",
+            "block": "create:mechanical_arm"
+        }
     }
-  }
+}
