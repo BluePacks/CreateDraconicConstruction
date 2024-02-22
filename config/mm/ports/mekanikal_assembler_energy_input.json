@@ -1,0 +1,11 @@
+{
+    "id": "mekanikal_assembler_energy_input",
+       "name": {
+       "text": "Universal Energy"
+       },
+       "port": "mm:energy",
+       "input": true,
+       "config": {
+       "capacity": 200000
+       }
+    }

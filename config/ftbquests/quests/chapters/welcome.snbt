@@ -1,0 +1,83 @@
+{
+	id: "31AAA16B51E6B931"
+	group: "3BF57A68E896BA95"
+	order_index: 0
+	filename: "welcome"
+	title: "Welcome"
+	icon: "farmersdelight:white_canvas_sign"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "farmersdelight:white_canvas_sign"
+			x: -4.0d
+			y: 0.0d
+			description: ["You have been chosen to rebuild this world"]
+			id: "10FD9B99B78A48E0"
+			tasks: [{
+				id: "516861FAC592F6A3"
+				type: "checkmark"
+				title: "Welcome..."
+			}]
+		}
+		{
+			icon: "minecraft:grass_block"
+			x: -2.0d
+			y: 0.0d
+			description: ["You will work from the ground up, from sticks and stones (literally)"]
+			dependencies: ["10FD9B99B78A48E0"]
+			dependency_requirement: "one_completed"
+			id: "4F8DDFA6DA64165B"
+			tasks: [{
+				id: "2957B968A2A93C55"
+				type: "checkmark"
+				title: "To..."
+			}]
+		}
+		{
+			title: "Your..."
+			icon: "minecraft:stone"
+			x: 0.0d
+			y: 0.0d
+			description: ["To achieve your goal of restoring this world by bring back the Ender Dragon"]
+			dependencies: ["4F8DDFA6DA64165B"]
+			id: "20AF52CA4272EF23"
+			tasks: [{
+				id: "1740E51A12152705"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "New..."
+			icon: "minecraft:diamond_ore"
+			x: 2.0d
+			y: 0.0d
+			description: ["Restoring it you ask? The player has left it ravaged and destroyed on their mission to kill the very thing you spent lifetimes creating"]
+			dependencies: ["20AF52CA4272EF23"]
+			id: "35F35F61C7E52B3E"
+			tasks: [{
+				id: "67F1F0E513D2412D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Adventure!"
+			icon: "minecraft:map"
+			x: 4.0d
+			y: 0.0d
+			description: ["This quest book will take you through all the steps you need to get this world back to a state of flourishing"]
+			dependencies: ["35F35F61C7E52B3E"]
+			id: "04280725F85D2083"
+			tasks: [{
+				id: "0E0BCC7EF969DC6B"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1163384F54BD62C1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+	quest_links: [ ]
+}

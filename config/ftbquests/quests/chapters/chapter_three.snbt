@@ -1,0 +1,12 @@
+{
+	id: "52FAB0B36C28A7C2"
+	group: "42926CBA1E503967"
+	order_index: 3
+	filename: "chapter_three"
+	title: "Chapter 3"
+	icon: "kubejs:mekanikal_matrix"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

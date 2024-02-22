@@ -1,0 +1,12 @@
+{
+    "id": "mekanikal_assembler_item_output",
+       "name": {
+       "text": "Universal Item"
+       },
+       "port": "mm:item",
+       "input": false,
+       "config": {
+       "slotRows": 2,
+       "slotCols": 2
+       }
+    }

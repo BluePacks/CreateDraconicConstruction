@@ -1,0 +1,17 @@
+{
+    "name": "Who am I, why me?",
+    "icon": "minecraft:player_head",
+    "category": "patchouli:lore_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "You are one of the Restorers, chosen to rebuild the world after the player has ravaged it to a point many deemed too far gone. You were chosen because you were able to show you are far more capable then others of you kind, able to create almost anything from sticks and stones."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:dragon_head,minecraft:end_crystal",
+            "title": "You Goal",
+            "text": "Your final goal is to bring back the Ender Dragon from the dead to restore harmony and peace to this world. This will be no easy feat and you cannot resummon her the normal ways as the fabric of this reality has been broken so much the End Cystals are no longer functioning at full power so you will have to reconstruct those as well."
+        }
+    ]
+}
